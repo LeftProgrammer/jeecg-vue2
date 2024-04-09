@@ -1,0 +1,33 @@
+/* 全局引入的阿里矢量图 */
+@font-face {
+	font-family: 'iconfont'; /* Project id 3338465 */
+	src: url('https://at.alicdn.com/t/font_3338465_zes780ftpvb.woff2?t=1650333987340') format('woff2'),
+		 url('https://at.alicdn.com/t/font_3338465_zes780ftpvb.woff?t=1650333987340') format('woff'),
+		 url('https://at.alicdn.com/t/font_3338465_zes780ftpvb.ttf?t=1650333987340') format('truetype'),
+		 /* 添加本地字体的路径作为备选项 */
+		 /* url('path/to/local/font_3338465_zes780ftpvb.woff2') format('woff2'),
+		 url('path/to/local/font_3338465_zes780ftpvb.woff') format('woff'),
+		 url('path/to/local/font_3338465_zes780ftpvb.ttf') format('truetype'); */
+  }
+  
+  .iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px; /* 根据需求更改大小 */
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: middle; /* 确保图标垂直居中 */
+  }
+  
+  .icon-play:before {
+	content: "\e624";
+  }
+  .icon-collection:before {
+	content: "\e8b9";
+  }
+  .icon-collected:before {
+	content: "\e625";
+  }
+  .icon-collect-list:before {
+	content: "\e68e";
+  }

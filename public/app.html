@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>科技创新管理平台APP下载</title>
+  <link rel="icon" href="<%= BASE_URL %>logo.png">
+  <style>
+
+  </style>
+  <!-- 全局配置 -->
+  <script>
+    var ip = "119.3.105.186"
+    var pcurl = "http://" + ip + ":8010"
+    var appurl = "http://" + ip + ":8011/jeecg-boot/sys/common/static/app/科技创新平台.apk?t=" + (new Date().getTime())
+    window.onload = function () {
+
+      var a2 = document.getElementById("pcsite")
+      if (a2) {
+        a2.setAttribute("href", pcurl);
+        a2.innerText = pcurl;
+      }
+
+      var a = document.getElementById("downloadapp")
+      if (a) {
+        a.setAttribute("href", appurl);
+        a.click();
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app">
+    <p>点击下载 <a href="" id="downloadapp">科技创新管理平台APP安卓版</a></p>
+    <br>
+    <p><span style="color: red;">*</span>微信中请右上角选择<span style="border-bottom: 1px solid black;">在浏览器打开</span>进行下载<span
+        style="color: red;">*</span></p>
+  </div>
+
+</body>
+
+</html>

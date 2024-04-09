@@ -1,0 +1,105 @@
+// /* ============================ 边框 ============================ */
+// // 遍历0-50 (遍历的是 边框宽度，默认颜色 #f1f1f1 )
+// @for $i from 1 through 50 {
+// 	@if $i == 1{
+// 		.border { border-width: $i + px;border-style: solid;border-color: #f1f1f1; }
+// 		.border-top { border-top-width: $i + px;border-top-style: solid;border-top-color: #f1f1f1; }
+// 		.border-right { border-right-width: $i + px;border-right-style: solid;border-right-color: #f1f1f1; }
+// 		.border-bottom { border-bottom-width: $i + px;border-bottom-style: solid;border-bottom-color: #f1f1f1; }
+// 		.border-left { border-left-width: $i + px;border-left-style: solid;border-left-color: #f1f1f1; }
+// 	} @else {
+// 		.border-#{$i} { border-width: $i + px;border-style: solid;border-color: #f1f1f1; }
+// 		.border-top-#{$i} { border-top-width: $i + px;border-top-style: solid;border-top-color: #f1f1f1; }
+// 		.border-right-#{$i} { border-right-width: $i + px;border-right-style: solid;border-right-color: #f1f1f1; }
+// 		.border-bottom-#{$i} { border-bottom-width: $i + px;border-bottom-style: solid;border-bottom-color: #f1f1f1; }
+// 		.border-left-#{$i} { border-left-width: $i + px;border-left-style: solid;border-left-color: #f1f1f1; }
+// 	}
+// }
+
+
+
+// // 以下是遍历
+// /* ============================ 圆角 ============================ */
+// @for $i from 0 through 100 {
+// 	.rounded-#{$i} { border-radius: $i + px; }
+// 	.rounded-left-#{$i} { border-top-left-radius: $i + px;border-bottom-left-radius: $i + px; }
+// 	.rounded-right-#{$i} { border-top-right-radius: $i + px;border-bottom-right-radius: $i + px; }
+// 	.rounded-top-#{$i} { border-top-left-radius: $i + px;border-top-right-radius: $i + px; }
+// 	.rounded-bottom-#{$i} { border-bottom-left-radius: $i + px;border-bottom-right-radius: $i + px; }
+// }
+
+
+// // 定位 遍历1-200
+// @for $i from 0 through 500 {
+// 	.top-#{$i} { top: $i + px; }
+// 	.bottom-#{$i} { bottom: $i + px; }
+// 	.left-#{$i} { left: $i + px; }
+// 	.right-#{$i} { right: $i + px; }
+// }
+
+
+
+// /* ============================ 内外边距 遍历1-500 ============================ */
+// @for $i from 0 through 500 {
+// 	.m-#{$i} { margin: $i + px; }
+// 	.mt-#{$i} { margin-top: $i + px; }
+// 	.mr-#{$i} { margin-right: $i + px; }
+// 	.mb-#{$i} { margin-bottom: $i + px; }
+// 	.ml-#{$i} { margin-left: $i + px; }
+// 	.mx-#{$i} { margin-left: $i + px;margin-right: $i + px; }
+// 	.my-#{$i} { margin-top: $i + px;margin-bottom: $i + px; }
+// 	.p-#{$i} { padding: $i + px; }
+// 	.pt-#{$i} { padding-top: $i + px; }
+// 	.pr-#{$i} { padding-right: $i + px; }
+// 	.pb-#{$i} { padding-bottom: $i + px; }
+// 	.pl-#{$i} { padding-left: $i + px; }
+// 	.px-#{$i} { padding-left: $i + px;padding-right: $i + px; }
+// 	.py-#{$i} { padding-top: $i + px;padding-bottom: $i + px; }
+// }
+
+// /* ============================font-weight 遍历100-900 ============================ */
+// @for $i from 100 through 900 {
+// 		.font-w-#{$i} { font-weight: $i; }
+// }
+
+
+// /* ============================ 宽高 ============================ */
+
+// // 宽度/最大宽度 遍历1-3000
+// @for $i from 0 through 3000 {
+// 	.w-#{$i} { width: $i + px; }
+// 	.maxw-#{$i} { max-width: $i + px; }
+//   .minw-#{$i} { min-width: $i + px; }
+// }
+
+
+// // 高度/最大高度 遍历1-3000
+// @for $i from 0 through 3000 {
+// 	.h-#{$i} { height: $i + px; }
+// 	.maxh-#{$i} { max-height: $i + px; }
+//   .minh-#{$i} { min-height: $i + px; }
+// }
+
+
+// // VW -- 高度/最大高度 遍历1-100
+// @for $i from 0 through 100 {
+// 	.vw-#{$i} { width: $i + vw; }
+// 	.mvw-#{$i} { max-width: $i + vw; }
+// }
+// // VH -- 高度/最大高度 遍历1-100
+// @for $i from 0 through 100 {
+// 	.vh-#{$i} { height: $i + vh; }
+// 	.mvh-#{$i} { max-height: $i + vh; }
+// }
+
+
+
+// /* ============================ 文本 ============================*/
+// @for $i from 10 through 100 {
+// 	.font-#{$i} { font-size: $i + px;}
+// 	.line-#{$i} { line-height: $i + px;}
+// }
+
+
+
+

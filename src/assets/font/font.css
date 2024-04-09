@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'MFZHUOHEI-NONCOMMERCIAL-REGULAR';
+    src: url('MFZHUOHEI-NONCOMMERCIAL-REGULAR.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PINGFANG EXTRALIGHT';
+    src: url('PINGFANG EXTRALIGHT.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PINGFANG HEAVY';
+    src: url('PINGFANG HEAVY.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PINGFANG LIGHT';
+    src: url('PINGFANG LIGHT.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PINGFANG MEDIUM';
+    src: url('PINGFANG MEDIUM.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PINGFANG REGULAR';
+    src: url('PINGFANG REGULAR.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
